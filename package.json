@@ -1,6 +1,6 @@
 {
   "name": "payzi-randoms",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Разные штуки связанные с рандомом",
   "main": "index.js",
   "scripts": {
