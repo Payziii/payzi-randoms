@@ -10,7 +10,7 @@
 $ npm install payzi-randoms
 ```
 
-# Использование (JavaScript)
+# Рандомное число от 1 до 10
 
 ```js
 const { RandomInt } = require('payzi-randoms');
@@ -19,11 +19,12 @@ console.log(RandomNumber);
 //7
 ```
 
-# Использование (TypeScript)
+# Рандомный элемент из массива
 
-```ts
-import { RandomInt } = from 'payzi-randoms';
-let RandomNumber = RandomInt(1,10);
-console.log(RandomNumber);
-//4
+```js
+const { RandomArrayElement } = require('payzi-randoms');
+let arr = ['Привет', 'День добрый', 'Здравствуйте']
+let RandomElement = RandomArrayElement(arr);
+console.log(RandomElement);
+//'День добрый'
 ```
