@@ -1,0 +1,24 @@
+{
+  "name": "payzi-randoms",
+  "version": "0.0.1",
+  "description": "Разные штуки связанные с рандомом",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Payziii/payzi-randoms.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Payziii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Payziii/payzi-randoms/issues"
+  },
+  "homepage": "https://github.com/Payziii/payzi-randoms#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
