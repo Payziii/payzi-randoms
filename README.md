@@ -23,8 +23,16 @@ console.log(RandomNumber);
 
 ```js
 const { RandomArrayElement } = require('payzi-randoms');
-let arr = ['Привет', 'День добрый', 'Здравствуйте']
+let arr = ['Привет', 'День добрый', 'Здравствуйте'];
 let RandomElement = RandomArrayElement(arr);
 console.log(RandomElement);
 //'День добрый'
+```
+
+# Генерация пароля из 8 символов
+```js
+const { RandomPassword } = require('payzi-randoms');
+let Password = RandomPassword(8);
+console.log(RandomPassword);
+//Hcm54%L!
 ```
